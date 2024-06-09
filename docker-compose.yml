@@ -1,0 +1,6 @@
+services:
+  jmusicbot:
+    image: amazoncorretto:11
+    volumes:
+      - ./jmusicbot/:/tmp/jmusicbot/:rw
+    entrypoint: /tmp/jmusicbot/entrypoint.sh
