@@ -7,7 +7,7 @@ java -version
 cd /tmp/jmusicbot/
 
 # Download the jar
-curl -L https://github.com/jagrosh/MusicBot/releases/download/0.4.1/JMusicBot-0.4.1.jar > JMusicBot-0.4.1.jar
+curl -L https://github.com/jagrosh/MusicBot/releases/download/0.4.2/JMusicBot-0.4.2.jar > JMusicBot-0.4.2.jar
 
 # Run bot
-java -Dnogui=true -jar JMusicBot-0.4.1.jar
+java -Dnogui=true -jar JMusicBot-0.4.2.jar
